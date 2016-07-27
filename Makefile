@@ -4,5 +4,4 @@ LINK_FLAGS = -lm
 CCFLAGS = -O3 -fopenmp
 
 all:
-	$(CC) $(CCFLAGS) main.c sparsehash.c MurmurHash3.cpp -o main $(LINK_FLAGS)
-
+	$(CC) $(CCFLAGS) -DMULTITHREAD main.c sparsehash.c MurmurHash3.cpp utils.c -o main $(LINK_FLAGS)
