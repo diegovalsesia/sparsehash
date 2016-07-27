@@ -4,5 +4,4 @@ A library for a dimensionality reduction technique that preserves the Jaccard se
 
 See:
 
-"SparseHash: Embedding Jaccard Coefficient between Supports of Signals"
-D.Valsesia, S.M.Fosson, C.Ravazzi, T.Bianchi, E.Magli
+"SparseHash: Embedding Jaccard Coefficient between Supports of Signals" - D.Valsesia, S.M.Fosson, C.Ravazzi, T.Bianchi, E.Magli
